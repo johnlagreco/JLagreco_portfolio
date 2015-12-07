@@ -2,16 +2,30 @@
 	background-image: url("images/winterback.jpg");
 }
 
-.wrapper1, .wrapper2, .wrapper3{
+.wrapper1, .wrapper2, .wrapper3, .wrapper4{
 	margin: 0 auto;
 	border: solid 5px red;
-	width: 900px;
+	width: 800px;
 }
 
 nav{
 	text-align: center;
 	word-spacing: 100px;
 	font-size: 30px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	display: inline;
+}
+
+.blacken{
+	color: blue;
 }
 
 a{
@@ -35,8 +49,57 @@ h1{
 }
 
 h3{
-	/*display: block;*/
-	/*text-align: center;*/
-	margin: 0px 0px 0px 220px;
+	margin: 0px 0px 0px 172px;
 	color: white;
+}
+/*This is where the about page is styled*/
+.aboutp1{
+	float: left;
+	margin-left: 10px; 
+}
+
+.gif{
+	float: right;
+	margin-right: 18px;
+}
+
+span:link{
+	text-decoration: none;
+}
+
+span:hover{
+	text-decoration: underline;
+}
+
+.aboutp2{
+	float: left;
+	margin-left: 10px;
+	margin-right: 18px;
+}
+
+.para1{
+	font-size: large;
+	padding-right: 40px;
+	width: 350px;
+	float: right;
+}
+
+.para2{
+	font-size: large;
+	width: 350px;
+	float: left;
+	padding-left: 20px;
+	padding-top: 35px;
+}
+
+.para3{
+	font-size: large;
+	width: 350px;
+	float: right;
+	padding-top: 50px;
+    padding-right: 15px;
+}
+
+#footer{
+	clear: both;
 }
