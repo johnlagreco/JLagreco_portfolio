@@ -2,7 +2,7 @@
 	background-image: url("images/winterback.jpg");
 }
 
-.wrapper1, .wrapper2, .wrapper3, .wrapper4{
+.wrapper1, .wrapper2, .wrapper3, .wrapper{
 	margin: 0 auto;
 	border: solid 5px red;
 	width: 800px;
@@ -100,6 +100,38 @@ span:hover{
     padding-right: 15px;
 }
 
+/*This is where the contact page is styled*/
+
+img{
+	padding-left: 21px;
+}
+
+.para4{
+	font-size: x-large;
+}
+
+iframe{
+	padding-left: 120px;
+}
+
 #footer{
 	clear: both;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
