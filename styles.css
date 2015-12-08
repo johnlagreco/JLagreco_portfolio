@@ -106,8 +106,9 @@ img{
 	padding-left: 21px;
 }
 
-.para4{
+.para5, .para4{
 	font-size: x-large;
+	text-align: center;
 }
 
 iframe{
@@ -117,21 +118,4 @@ iframe{
 #footer{
 	clear: both;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
