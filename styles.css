@@ -4,7 +4,7 @@
 
 .wrapper1, .wrapper2, .wrapper3, .wrapper{
 	margin: 0 auto;
-	border: solid 5px red;
+	/*border: solid 5px red;*/
 	width: 800px;
 }
 
@@ -102,7 +102,7 @@ span:hover{
 
 /*This is where the contact page is styled*/
 
-img{
+.contactp1{
 	padding-left: 21px;
 }
 
