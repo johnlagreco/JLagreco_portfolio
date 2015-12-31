@@ -125,23 +125,28 @@ span:hover{
 	background-image: url("images/John@Hunter2.JPG");
 }
 
-/*.contactp1{
-	padding-left: 21px;
-}*/
-
-.para5, .para4{
+.para4, .para5{
 	font-size: x-large;
-	color: white;
+	color: black;
 }
 
 .blacken1{
 	color: black;
 	font-size: x-large;
 	font-weight: bolder;
+	background-color: white;
+	border-radius: 80px;
+	padding: 6px;
 }
 
 iframe{
 	padding-left: 0px;
+	padding-top: 60px;
+}
+
+.ghub{
+	color: black;
+	font-weight: bolder;
 }
 
 #footer{
