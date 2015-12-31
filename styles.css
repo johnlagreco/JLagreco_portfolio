@@ -11,7 +11,7 @@
 
 nav{
 	text-align: center;
-	word-spacing: 100px;
+	word-spacing: 50px;
 	font-size: 30px;
 }
 
@@ -27,6 +27,7 @@ li{
 
 .blacken{
 	color: blue;
+	font-weight: bold;
 }
 
 a{
@@ -53,6 +54,23 @@ h3{
 	margin: 0px 0px 20px 25px;
 	color: white;
 }
+
+#ride{
+    margin-left: 86%;
+    margin-top: 280px;
+    position: fixed;
+}
+
+button{
+	float: right;
+	margin-right: 30px;
+    margin-top: 220px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+	border-radius: 80px;
+}
+
 /*This is where the about page is styled*/
 .aboutp1{
 	float: left;
@@ -103,17 +121,27 @@ span:hover{
 
 /*This is where the contact page is styled*/
 
-.contactp1{
-	padding-left: 21px;
+#background1{
+	background-image: url("images/John@Hunter2.JPG");
 }
+
+/*.contactp1{
+	padding-left: 21px;
+}*/
 
 .para5, .para4{
 	font-size: x-large;
-	text-align: center;
+	color: white;
+}
+
+.blacken1{
+	color: black;
+	font-size: x-large;
+	font-weight: bolder;
 }
 
 iframe{
-	padding-left: 120px;
+	padding-left: 0px;
 }
 
 #footer{
