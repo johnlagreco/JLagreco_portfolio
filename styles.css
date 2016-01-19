@@ -3,10 +3,14 @@
 	background-size: cover; 
 }
 
-.wrapper1, .wrapper2, .wrapper3, .wrapper{
+.wrapper1, .wrapper2, .wrapper3, .wrapper4{
 	margin: 0 auto;
 	/*border: solid 5px red;*/
 	width: 800px;
+}
+
+#homenav{
+	padding-right: 178px;
 }
 
 nav{
@@ -26,8 +30,12 @@ li{
 }
 
 .blacken{
-	color: blue;
-	font-weight: bold;
+	color: white;
+	background-color: blue;
+	font-size: x-large;
+	font-weight: bolder;
+	border-radius: 80px;
+	padding: 6px;
 }
 
 a{
@@ -65,13 +73,18 @@ button{
 	float: right;
 	margin-right: 30px;
     margin-top: 220px;
-    background-color: green;
+    background-color: black;
     color: white;
     font-size: 20px;
 	border-radius: 80px;
 }
 
 /*This is where the about page is styled*/
+#bground{
+	background-color: peru;
+}
+
+
 .aboutp1{
 	float: left;
 	margin-left: 10px; 
@@ -118,6 +131,44 @@ span:hover{
 	padding-top: 50px;
     padding-right: 15px;
 }
+
+/*This is where the family page is styled*/
+
+#bground2{
+	background-color: skyblue;
+}
+
+#wrapper4{
+	margin: 0 auto;
+	width: 800px;
+	padding: 10px;
+	/*border: solid 5px red;*/
+}
+
+.familyp1{
+	float: left;
+}
+
+.p1{
+	margin: 0 auto;
+	width: 250px;
+	float: right;
+	font-size: large;
+	padding-right: 10px;
+}
+
+#mad{
+	margin-top: 8px;
+	margin-right: 50px;
+	background-color: black;
+	color: white;
+}
+
+.familyp2{
+	display: none;
+	float: center;
+}
+
 
 /*This is where the contact page is styled*/
 

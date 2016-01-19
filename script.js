@@ -5,4 +5,9 @@ $(document).ready(function(){
          location.reload(true);
 		});
     });
+
+	$("button").click(function(){
+		$(".familyp2").fadeIn(4000);
+		$(".familyp2").fadeOut(7000);
+	});
 });
