@@ -6,8 +6,26 @@ $(document).ready(function(){
 		});
     });
 
+		$("#sidebar > p ").click(function(){
+	    $("#sideout").show();
+	});	
+
+		$("#sidebar > p ").click(function(){
+	    $("#sideout").hide();
+	});
+
 	$("button").click(function(){
 		$(".familyp2").fadeIn(4000);
-		$(".familyp2").fadeOut(7000);
+		$(".familyp2").fadeOut(6000);
 	});
+
 });
+
+
+// function toggle(#sideout){
+// 	var e = document.getElementById(#sideout);
+// 	if ( e.style.display == 'block' )
+// 		e.style.display = 'none';
+// 	else
+// 		e.style.display = 'block';
+// }

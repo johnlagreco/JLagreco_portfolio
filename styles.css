@@ -81,9 +81,30 @@ button{
 
 /*This is where the about page is styled*/
 #bground{
-	background-color: peru;
+	background-color: skyblue;
 }
 
+#sidebar, #sideout{
+	/*border: solid 2px red;*/
+	text-align: center;
+	background-color: blue;
+	color: white;
+	float: left;
+	margin-top: 50px;
+	height: 620px;
+    width: 50px;
+    overflow: auto;
+	position: fixed;
+}
+
+h2{
+	vertical-align: middle;
+}
+
+#sideout{
+	display: none;
+	width: 130px;
+}
 
 .aboutp1{
 	float: left;
