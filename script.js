@@ -6,13 +6,16 @@ $(document).ready(function(){
 		});
     });
 
-		$("#sidebar > p ").click(function(){
+var "sideout" = document.getElementById("#sideout");
+function toggle("#sideout"){
+		$("#sidebar").click(function(){
 	    $("#sideout").show();
-	});	
-
-		$("#sidebar > p ").click(function(){
+		$("#sidebar").click(function(){
 	    $("#sideout").hide();
-	});
+	 });
+  });
+}
+
 
 	$("button").click(function(){
 		$(".familyp2").fadeIn(4000);
