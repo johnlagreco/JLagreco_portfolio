@@ -6,16 +6,9 @@ $(document).ready(function(){
 		});
     });
 
-var "sideout" = document.getElementById("#sideout");
-function toggle("#sideout"){
-		$("#sidebar").click(function(){
-	    $("#sideout").show();
-		$("#sidebar").click(function(){
-	    $("#sideout").hide();
-	 });
-  });
-}
-
+	$("#sidebar").click(function(){
+		$("#sideout").toggle();
+	});
 
 	$("button").click(function(){
 		$(".familyp2").fadeIn(4000);
@@ -23,12 +16,3 @@ function toggle("#sideout"){
 	});
 
 });
-
-
-// function toggle(#sideout){
-// 	var e = document.getElementById(#sideout);
-// 	if ( e.style.display == 'block' )
-// 		e.style.display = 'none';
-// 	else
-// 		e.style.display = 'block';
-// }
