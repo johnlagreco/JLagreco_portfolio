@@ -1,1 +1,3 @@
-This is John LaGreco's Portfolio project that gets updated periodically throughout time.
+This is John LaGreco's Portfolio project that gets updated periodically throughout time. This portfolio is all about John LaGreco and his work history as well as his new coding projects that he has been working on. 
+
+If you click on the "recent projects" bar, there is a list of his projects that are live on the internet that you can review and experience what he can do.
