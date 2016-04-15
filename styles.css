@@ -97,10 +97,6 @@ button{
 	position: fixed;
 }
 
-h2{
-	vertical-align: middle;
-}
-
 #sideout{
 	display: none;
 	width: 130px;
@@ -171,12 +167,18 @@ span:hover{
 	/*border: solid 5px red;*/
 }
 
+.familyp2, .familyp1{
+	margin-top: 5%;
+} 
+
 .familyp1{
 	float: left;
+	margin-left: 2%;
 }
 
 .p1{
 	margin: 0 auto;
+	margin-top: 5%;
 	width: 250px;
 	float: right;
 	font-size: large;
