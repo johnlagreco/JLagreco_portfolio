@@ -16,13 +16,14 @@ body{
 #homenav{
 	padding-left: 10%;
 	font-size: x-large;
+	text-align: center;
+	font-size: 30px;
 }
 
-nav{
-/*	border: solid red 5px;
+#aboutnav{
 	height: 62px;
 	background-image: url("images/navbar-winterback.jpg");
-	background-size: cover;*/
+	background-size: cover;
 	text-align: center;
 	font-size: 30px;
 }
@@ -70,7 +71,7 @@ h3{
 
 /*This is where the about/family page is styled*/
 #bground{
-	background-color: skyblue;
+	background-color: #6495ED;
 }
 
 .blacken{
@@ -81,11 +82,12 @@ h3{
 	border-radius: 54%;
 	padding: 1%;
 	float: right;
-	margin-right: 5%;
+	margin-right: 30%;
+	margin-top: 6px;
 }
 
 .homeicon{
-	margin-top: -1%;
+	margin-top: 0%;
 	float: left;
 }
 
