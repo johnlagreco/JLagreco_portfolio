@@ -1,3 +1,7 @@
+body{
+	margin: 0px;
+}
+
 #background{
 	background-image: url("images/winterback.jpg");
 	background-size: cover; 
@@ -15,9 +19,11 @@
 }
 
 nav{
-	/*border: solid red 5px;*/
+/*	border: solid red 5px;
+	height: 62px;
+	background-image: url("images/navbar-winterback.jpg");
+	background-size: cover;*/
 	text-align: center;
-	word-spacing: 50px;
 	font-size: 30px;
 }
 
@@ -62,17 +68,7 @@ h3{
     position: fixed;
 }
 
-button{
-	float: right;
-	margin-right: 30px;
-    margin-top: 220px;
-    background-color: black;
-    color: white;
-    font-size: 20px;
-	border-radius: 80px;
-}
-
-/*This is where the about page is styled*/
+/*This is where the about/family page is styled*/
 #bground{
 	background-color: skyblue;
 }
@@ -89,6 +85,7 @@ button{
 }
 
 .homeicon{
+	margin-top: -1%;
 	float: left;
 }
 
@@ -202,6 +199,9 @@ span:hover{
 	margin-right: 50px;
 	background-color: black;
 	color: white;
+	padding: 4%;
+	font-size: 20px;
+	border-radius: 45%;
 }
 
 .familyp2{
@@ -226,7 +226,7 @@ span:hover{
 	font-size: large;
 	font-weight: bolder;
 	background-color: white;
-	border-radius: 54%;
+	border-radius: 60%;
 	padding: 1%;
 	float: left;
 	margin-left: 1%;

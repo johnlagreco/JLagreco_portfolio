@@ -1,7 +1,7 @@
 $(document).ready(function(){
-	$("button").click(function(){
+	$("#ride").click(function(){
         $("#ride").animate({right: "600px"}, 2000);
-     $( "button" ).click(function() {
+     $( "#ride" ).click(function() {
          location.reload(true);
 		});
     });
@@ -11,7 +11,7 @@ $(document).ready(function(){
 	});
 
 	$("button").click(function(){
-		$(".familyp2").fadeIn(4000);
+		$(".familyp2").fadeIn(3000);
 		$(".familyp2").fadeOut(6000);
 	});
 
