@@ -21,11 +21,15 @@ body{
 }
 
 #aboutnav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
 	height: 62px;
 	background-image: url("images/navbar-winterback.jpg");
 	background-size: cover;
 	background-position: center;
-	font-size: 30px;
 }
 
 ul{
@@ -97,7 +101,7 @@ h3{
 	background-color: blue;
 	color: white;
 	float: left;
-	margin-top: 6%;
+	margin-top: 4%;
 	height: 620px;
     width: 50px;
     overflow: auto;
