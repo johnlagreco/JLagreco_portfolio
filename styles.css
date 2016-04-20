@@ -24,7 +24,7 @@ body{
 	height: 62px;
 	background-image: url("images/navbar-winterback.jpg");
 	background-size: cover;
-	text-align: center;
+	background-position: center;
 	font-size: 30px;
 }
 
@@ -71,7 +71,7 @@ h3{
 
 /*This is where the about/family page is styled*/
 #bground{
-	background-color: #6495ED;
+	background-color: #F08080;
 }
 
 .blacken{

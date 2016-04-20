@@ -6,7 +6,7 @@ $(document).ready(function(){
 		});
     });
 
-	$("#sidebar").click(function(){
+	$("#sidebar").hover(function(){
 		$("#sideout").toggle();
 	});
 
