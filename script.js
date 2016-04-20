@@ -9,6 +9,13 @@ $(document).ready(function(){
 	$("#sidebar").hover(function(){
 		$("#sideout").toggle();
 	});
+	$("#sideout").mouseenter(function(){
+		$("#sideout").show();
+	});
+	$("#sideout").mouseleave(function(){
+		$("#sideout").hide();
+	});
+
 
 	$("button").click(function(){
 		$(".familyp2").fadeIn(3000);
