@@ -80,15 +80,9 @@ h3{
 }
 
 .blacken{
-	color: white;
-	background-color: blue;
-	font-size: large;
-	font-weight: bolder;
-	border-radius: 54%;
-	padding: 1%;
 	float: right;
-	margin-right: 30%;
-	margin-top: 6px;
+	margin-right: 35%;
+	margin-top: 0%;
 }
 
 .homeicon{
@@ -239,6 +233,7 @@ span:hover{
 	border-radius: 60%;
 	padding: 1%;
 	float: left;
+	margin-top: .5%;
 	margin-left: 1%;
 }
 
