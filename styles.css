@@ -199,6 +199,7 @@ span:hover{
 }
 
 #mad{
+	cursor: pointer;
 	margin-top: 8px;
 	margin-right: 50px;
 	background-color: black;
