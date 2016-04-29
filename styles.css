@@ -5,6 +5,8 @@ body{
 #background{
 	background-image: url("images/winterback.jpg");
 	background-size: cover; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 .wrapper1, .wrapper2, .wrapper3, .wrapper4{
@@ -214,11 +216,12 @@ span:hover{
 	float: center;
 }
 
-
 /*This is where the contact page is styled*/
 
 #background1{
 	background-image: url("images/John@Hunter2.JPG");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 .para4, .para5{
