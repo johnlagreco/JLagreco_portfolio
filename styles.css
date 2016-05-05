@@ -229,17 +229,6 @@ span:hover{
 
 /*This is where family is styled and added to the about page*/
 
-#bground2{
-	background-color: skyblue;
-}
-
-#wrapper4{
-	margin: 0 auto;
-	width: 800px;
-	padding: 10px;
-	/*border: solid 5px red;*/
-}
-
 .familyp2, .familyp1{
 	margin-top: 5%;
 } 
@@ -282,7 +271,7 @@ span:hover{
 	background-repeat: no-repeat;
 }
 
-.para4, .para5{
+.para4{
 	font-size: x-large;
 	color: black;
 }
@@ -292,7 +281,7 @@ span:hover{
 	font-size: large;
 	font-weight: bolder;
 	font-family: lucida grande, sans-serif;
-	background-color: white;
+	background-color: #F08080;
 	border-radius: 60%;
 	padding: 1%;
 	float: left;
@@ -307,7 +296,7 @@ iframe{
 
 #footer{
 	margin: 0 auto;
-	width: 50%;
+	width: 52%;
 	text-align: center;
 	clear: both;
 }
