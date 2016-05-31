@@ -88,7 +88,7 @@ h3{
     position: fixed;
 }
 
-@media (max-width: 375px){
+@media (max-width: 425px){
 	#background{
 		background-size: contain;
 		background-repeat: no-repeat;
@@ -153,10 +153,10 @@ p, h2{
 #sidebar, #sideout{
 	/*border: solid 2px red;*/
 	text-align: center;
-	background-color: blue;
+	background-color: #8080ff;
 	color: white;
 	float: left;
-	margin-top: 0%;
+	margin-top: -2%;
 	height: 620px;
     width: 50px;
     overflow: auto;
