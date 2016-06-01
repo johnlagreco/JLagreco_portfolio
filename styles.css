@@ -110,7 +110,7 @@ h3{
 		margin-top: 0%;
 	    margin-bottom: 0px;
 	    padding-left: 5%;
-	    font-size: 200%;
+	    font-size: 150%;
 	    color: white;
 	    font-family: 'Kaushan Script', cursive;
 	}
@@ -153,11 +153,12 @@ p, h2{
 #sidebar, #sideout{
 	/*border: solid 2px red;*/
 	text-align: center;
-	background-color: #8080ff;
+	background-color: #6666ff;
+	font-family: lucida grande, sans-serif;
 	color: white;
 	float: left;
 	margin-top: -2%;
-	height: 620px;
+	height: 640px;
     width: 50px;
     overflow: auto;
 	position: fixed;
@@ -170,7 +171,7 @@ p, h2{
 }
 
 #sideoutlist{
-	margin-top: 16%;
+	margin-top: 15%;
 }
 
 h2{
