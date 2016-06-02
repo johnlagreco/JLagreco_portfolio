@@ -270,6 +270,7 @@ span:hover{
 	background-image: url("images/John@Hunter2.JPG");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	background-size: inherit;
 }
 
 .para4{
@@ -291,7 +292,6 @@ span:hover{
 }
 
 iframe{
-	padding-left: 0px;
 	padding-top: 8%;
 }
 
