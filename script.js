@@ -16,10 +16,4 @@ $(document).ready(function(){
 		$("#sideout").hide();
 	});
 
-
-	$("button").click(function(){
-		$(".familyp2").fadeIn(3000);
-		$(".familyp2").fadeOut(6000);
-	});
-
 });
