@@ -222,14 +222,14 @@ span:hover{
 	margin-top: 8%;
 	float: left;
 	height: 400px;
-	width: 800px; 
+	width: 800px;
 }
 
 #sec3{
 	height: 500px;
 }
 
-.homer, .media, .ship{
+.homer, .media{
 	margin: 0 auto;
 	float: left;
 }
@@ -251,24 +251,19 @@ span:hover{
 	font-size: large;
 }
 
-.2do{
-	margin: 0 auto;
-	margin-right: 64%;
-	float: left;
-}
-
 .sec2p1{
 	margin: 0 auto;
-	float: right;
+	float: left;
 	width: 260px;
     margin-top: 8%;
-    margin-right: 26%;
+    margin-left: 26%;
+    text-align: right;
 	font-size: large;
 }
 
 .sec2p2{
-	margin-top: 3%;
-	margin-left: 14%;
+	margin-top: 5%;
+	margin-left: 36%;
 }
 
 .sec3p1{
@@ -276,7 +271,7 @@ span:hover{
 	float: right;
 	width: 260px;
 	margin-right: 18%;
-    margin-top: 10%;
+    margin-top: 8%;
 	font-size: large;
 }
 
@@ -284,11 +279,16 @@ span:hover{
 	margin-left: 4%;
 }
 
+.ship{
+	float: right;
+}
+
 .sec4p1{
 	margin: 0 auto;
-	float: right;
+	float: left;
 	width: 380px;
     margin-top: 4%;
+    text-align: right;
 	font-size: large;
 }
 
