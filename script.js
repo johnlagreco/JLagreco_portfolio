@@ -15,5 +15,4 @@ $(document).ready(function(){
 	$("#sideout").mouseleave(function(){
 		$("#sideout").hide();
 	});
-
 });

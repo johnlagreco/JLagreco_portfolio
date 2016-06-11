@@ -16,7 +16,6 @@ body{
 }
 
 .wrapper2, .wrapper3{
-	/*border: solid 5px red;*/
 	margin: 0 auto;
 	width: 800px;
 }
@@ -24,6 +23,10 @@ body{
 .wrapper2{
 	margin-top: 6%;
 	padding: 1%;
+}
+
+.wrapper3{
+	margin-top: 5%;
 }
 
 #homenav{
@@ -44,6 +47,15 @@ body{
 	background-image: url("images/navbar-winterback.jpg");
 	background-size: cover;
 	background-position: center;
+}
+
+#contactnav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 62px;
 }
 
 ul{
@@ -158,7 +170,7 @@ h2{
 
 .blacken{
 	float: right;
-	margin-right: 35%;
+	margin-right: 29%;
 	margin-top: 0%;
 }
 
@@ -255,7 +267,7 @@ span:hover{
 	margin: 0 auto;
 	float: left;
 	width: 260px;
-    margin-top: 8%;
+    margin-top: 6%;
     margin-left: 26%;
     text-align: right;
 	font-size: large;
@@ -271,7 +283,7 @@ span:hover{
 	float: right;
 	width: 260px;
 	margin-right: 18%;
-    margin-top: 8%;
+    margin-top: 6%;
 	font-size: large;
 }
 
@@ -300,20 +312,45 @@ span:hover{
 	margin: 0 auto;
 	float: right;
 	width: 380px;
-    margin-top: 4%;
+    margin-top: 2%;
 	font-size: large;
 }
 
 /*This is where the contact page is styled*/
 
 #background1{
-	background-image: url("images/John@Hunter2.JPG");
+	background-image: url("images/John@Hunter.JPG");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: inherit;
+	background-size: cover;
+}
+
+#circle{
+	margin: 0 auto;
+	border-radius: 50%;
+	background-color: #F08080;
+	width: 38%;
+	padding-top: 3%;
+	padding-bottom: 0%;
+	margin-left: 28%;
+	overflow: hidden;
+	-webkit-animation: Floatingy 3s infinite ease-in-out;
+}
+
+@-webkit-keyframes Floatingy {
+    from {
+        -webkit-transform:translateY(0px);
+    }
+    65% {
+        -webkit-transform:translateY(50px);
+    }
+    to {
+        -webkit-transform: translateY(-0px);
+    }
 }
 
 .para4{
+	text-align: center;
 	font-size: x-large;
 	color: black;
 }
@@ -326,20 +363,15 @@ span:hover{
 	background-color: #F08080;
 	border-radius: 60%;
 	padding: 1%;
-	float: left;
+	float: right;
 	margin-top: .5%;
-	margin-left: 1%;
-}
-
-iframe{
-	padding-top: 8%;
-	margin-right: 26%;
+	margin-right: 30%;
 }
 
 #footer{
 	margin: 0 auto;
-	width: 52%;
+	margin-top: 10%;
+    margin-right: 8%;
 	text-align: center;
-	clear: both;
 }
 
