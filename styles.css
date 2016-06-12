@@ -217,7 +217,7 @@ span:hover{
 	text-decoration: underline;
 }
 
-/*This is where the section tags are styled*/
+/*This is where the div numbered sec tags are styled*/
 #sec0{
 	text-align: center;
 }
@@ -242,7 +242,7 @@ span:hover{
 	height: 500px;
 }
 
-#sec7{
+#sec7, #sec8{
 	height: 1060px;
 }
 
@@ -300,7 +300,7 @@ span:hover{
 	float: right;
 }
 
-.sec4p1, .sec7p3{
+.sec4p1, .sec7p3, .sec8p3{
 	margin: 0 auto;
 	float: left;
 	width: 380px;
@@ -336,12 +336,31 @@ span:hover{
 	margin-left: 14%;
 }
 
-.sec7p3{
+.sec7p3, #sec8{
 	margin-top: 15%;
 }
 
 .crane{
 	float: right;
+}
+
+.sec8p1{
+	margin: 0 auto;
+	float: right;
+	width: 214px;
+	margin-top: 5%;
+	margin-right: 1%;
+	font-size: large;
+}
+
+.sec8p2{
+	font-size: large;
+}
+
+.sec8p3{
+	width: 260px;
+	margin-top: 10%;
+	margin-right: 5%;
 }
 
 .ufopro{
