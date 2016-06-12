@@ -15,7 +15,7 @@ body{
 	width: 100%;
 }
 
-.wrapper2, .wrapper3{
+.wrapper2, .wrapper3, .wrapper4, .wrapper5, .wrapper6{
 	margin: 0 auto;
 	width: 800px;
 }
@@ -25,7 +25,7 @@ body{
 	padding: 1%;
 }
 
-.wrapper3{
+.wrapper3, .wrapper4, .wrapper5, .crane{
 	margin-top: 5%;
 }
 
@@ -147,7 +147,7 @@ h3{
 	}
 }
 
-/*This is where the about page is styled*/
+/*This is where the about page styling begins*/
 .nycda{
 	margin: 0 auto;
 }
@@ -164,11 +164,11 @@ h2{
 	font-size: xx-large;
 }
 
-#bground{
+#bground, #bkgrdfubar, #bkgrdcz, #bkgrdmoon{
 	background-color: #F08080;
 }
 
-.blacken{
+.ufocon{
 	float: right;
 	margin-right: 29%;
 	margin-top: 0%;
@@ -217,6 +217,7 @@ span:hover{
 	text-decoration: underline;
 }
 
+/*This is where the section tags are styled*/
 #sec0{
 	text-align: center;
 }
@@ -229,7 +230,7 @@ span:hover{
 	font-size: large;
 }
 
-#sec1, #sec2, #sec3, #sec4, #sec5{
+#sec1, #sec2, #sec3, #sec4, #sec5, #sec6, #sec7, #sec8{
 	margin: 0 auto;
 	margin-top: 8%;
 	float: left;
@@ -239,6 +240,10 @@ span:hover{
 
 #sec3{
 	height: 500px;
+}
+
+#sec7{
+	height: 1060px;
 }
 
 .homer, .media{
@@ -255,7 +260,7 @@ span:hover{
 	font-size: large;
 }
 
-.sec1p2, .sec2p2, .sec3p2, .sec3p2, .sec4p2, .sec5p2{
+.sec1p2, .sec2p2, .sec3p2, .sec3p2, .sec4p2, .sec5p2, .sec6p2, .sec7p2, .sec7p4{
 	margin: 0 auto;
 	float: left;
 	margin-top: 5%;
@@ -295,7 +300,7 @@ span:hover{
 	float: right;
 }
 
-.sec4p1{
+.sec4p1, .sec7p3{
 	margin: 0 auto;
 	float: left;
 	width: 380px;
@@ -308,7 +313,7 @@ span:hover{
 	margin-left: 2%;
 }
 
-.sec5p1{
+.sec5p1, .sec6p1, .sec7p1{
 	margin: 0 auto;
 	float: right;
 	width: 380px;
@@ -316,8 +321,36 @@ span:hover{
 	font-size: large;
 }
 
-/*This is where the contact page is styled*/
+.sec6p1, .sec7p1{
+	width: 350px;
+	margin-top: 6%;
+}
 
+.sec6p2{
+	margin-top: 5%;
+	margin-left: 26%;
+}
+
+.sec7p2{
+	margin-top: 5%;
+	margin-left: 14%;
+}
+
+.sec7p3{
+	margin-top: 15%;
+}
+
+.crane{
+	float: right;
+}
+
+.ufopro{
+	margin: 0 auto;
+	margin-top: 4%;
+	margin-left: 42%;
+}
+
+/*This is where the contact page is styled*/
 #background1{
 	background-image: url("images/John@Hunter.JPG");
 	background-attachment: fixed;
