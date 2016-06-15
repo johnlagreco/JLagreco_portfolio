@@ -58,6 +58,27 @@ body{
 	height: 62px;
 }
 
+.ufocon{
+	float: right;
+	margin-right: 29%;
+	margin-top: 0%;
+}
+
+.homeicon{
+	margin-top: 0%;
+	float: left;
+}
+
+.ufoabout, .ufopro{
+	margin-left: 47%;
+}
+
+.ufoprobod{
+	margin: 0 auto;
+	margin-top: 4%;
+	margin-left: 42%;
+}
+
 ul{
 	list-style-type: none;
 	margin: 0;
@@ -166,17 +187,6 @@ h2{
 
 #bground, #bkgrdfubar, #bkgrdcz, #bkgrdmoon{
 	background-color: #F08080;
-}
-
-.ufocon{
-	float: right;
-	margin-right: 29%;
-	margin-top: 0%;
-}
-
-.homeicon{
-	margin-top: 0%;
-	float: left;
 }
 
 #sidebar, #sideout{
@@ -363,12 +373,6 @@ span:hover{
 	margin-right: 5%;
 }
 
-.ufopro{
-	margin: 0 auto;
-	margin-top: 4%;
-	margin-left: 42%;
-}
-
 /*This is where the contact page is styled*/
 #background1{
 	background-image: url("images/John@Hunter.JPG");
@@ -407,7 +411,7 @@ span:hover{
 	color: black;
 }
 
-.blacken1{
+.blacken1, .blacken{
 	color: black;
 	font-size: large;
 	font-weight: bolder;
@@ -418,6 +422,13 @@ span:hover{
 	float: right;
 	margin-top: .5%;
 	margin-right: 30%;
+}
+
+.blacken{
+	margin: 0 auto;
+	float: left;
+	margin-top: .5%;
+	margin-left: 46%;
 }
 
 #footer{
