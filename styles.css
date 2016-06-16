@@ -1,4 +1,4 @@
-/*This is where the index page and navbar stylings are with media queries:*/
+/*This is where the index page, wrappers and navbars stylings are and also media queries:*/
 body{
 	margin: 0px;
 }
@@ -27,6 +27,14 @@ body{
 
 .wrapper3, .wrapper4, .wrapper5, .crane{
 	margin-top: 5%;
+}
+
+.wrapper7{
+	background-color: #F08080; 
+	margin: 0 auto;
+	margin-top: 10%;
+	height: 428px;
+	width: 600px;
 }
 
 #homenav{
@@ -167,11 +175,9 @@ h3{
 	    position: fixed;
 	}
 }
-
-/*This is where the about page styling begins*/
-.nycda{
+/*.nycda{
 	margin: 0 auto;
-}
+}*/
 
 p, h2{
 	font-family: lucida grande, sans-serif;
@@ -188,7 +194,32 @@ h2{
 #bground, #bkgrdfubar, #bkgrdcz, #bkgrdmoon{
 	background-color: #F08080;
 }
+/*This is where the about page is being styled*/
+#bkgrdabout{
+	background-image: url("images/01s-faded.JPG");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 12%;
+}
 
+/*.gif{
+	margin: 0 auto;
+	margin-top: 3%;
+	padding-top: 3%;
+	float: right;
+}*/
+
+.para2{
+	/*margin: 0 auto;*/
+	margin-top: 6%;
+	width: 360px;
+	padding: 1% 20%;
+	font-size: large;
+	text-align: center;
+}
+
+/*This is where the project page styling begins*/
 #sidebar, #sideout{
 	text-align: center;
 	background-color: #6666ff;
@@ -212,13 +243,6 @@ h2{
 	margin-top: 20%;
 }
 
-.gif{
-	margin: 0 auto;
-	margin-top: 3%;
-	padding-top: 3%;
-	float: right;
-}
-
 span:link{
 	text-decoration: none;
 }
@@ -230,14 +254,6 @@ span:hover{
 /*This is where the div numbered sec tags are styled*/
 #sec0{
 	text-align: center;
-}
-
-.para2{
-	margin: 0 auto;
-	float: left;
-	margin-top: 3%;
-	width: 360px;
-	font-size: large;
 }
 
 #sec1, #sec2, #sec3, #sec4, #sec5, #sec6, #sec7, #sec8{
@@ -424,7 +440,7 @@ span:hover{
 	margin-right: 30%;
 }
 
-.blacken{
+.blacken1{
 	margin: 0 auto;
 	float: left;
 	margin-top: .5%;
