@@ -175,9 +175,6 @@ h3{
 	    position: fixed;
 	}
 }
-/*.nycda{
-	margin: 0 auto;
-}*/
 
 p, h2{
 	font-family: lucida grande, sans-serif;
@@ -203,15 +200,7 @@ h2{
 	margin-top: 12%;
 }
 
-/*.gif{
-	margin: 0 auto;
-	margin-top: 3%;
-	padding-top: 3%;
-	float: right;
-}*/
-
 .para2{
-	/*margin: 0 auto;*/
 	margin-top: 6%;
 	width: 360px;
 	padding: 1% 20%;
@@ -251,7 +240,7 @@ span:hover{
 	text-decoration: underline;
 }
 
-/*This is where the div numbered sec tags are styled*/
+/*This is where the div numbered sec tags in the projects page are styled*/
 #sec0{
 	text-align: center;
 }
