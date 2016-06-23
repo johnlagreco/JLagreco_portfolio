@@ -193,7 +193,7 @@ h2{
 }
 /*This is where the about page is being styled*/
 #bkgrdabout{
-	background-image: url("images/01s-faded.JPG");
+	background-image: url("images/01s-faded.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
