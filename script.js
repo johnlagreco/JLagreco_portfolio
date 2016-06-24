@@ -1,6 +1,8 @@
 $(document).ready(function(){
 	$("#ride").click(function(){
-        $("#ride").animate({right: "50%"}, 1500);
+        $("#ride").animate({right: "54%", 
+        	height: "130px"}, 1200);
+
      $( "#ride" ).click(function() {
          location.reload(true);
 		});
