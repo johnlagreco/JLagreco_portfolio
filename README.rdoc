@@ -1,1 +1,5 @@
-This is John LaGreco's Portfolio project that gets updated periodically. This portfolio uses HTML, JS/jQuery & CSS and is all about John LaGreco and his work history as well as his new coding projects. 
+This is my Personal Portfolio that gets updated periodically with new skills and personal information. The site uses HTML, CSS, Javascript & jQuery and is all about me and my work history as well as new coding projects. For further information please look me up on linkedin and GitHub;
+
+www.linkedin.com/in/johnlagreco
+
+www.github.com/johnlagreco
