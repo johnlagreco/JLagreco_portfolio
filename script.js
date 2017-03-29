@@ -8,6 +8,11 @@ $(document).ready(function(){
 		});
     });
 
+	$(document).ready(function(){
+		$(".ufoabout").animate({bottom: '-=600%', right: '+=20%'}, 1000);
+		$(".ufoabout").animate({bottom: '+=600%', left: '+=20%'}, 1000);
+	});
+
 	$("#sidebar").hover(function(){
 		$("#sideout").toggle();
 	});
