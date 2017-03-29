@@ -77,9 +77,13 @@ body{
 	float: left;
 }
 
-.ufoabout, .ufopro{
+.ufoabout{
 	margin-left: 47%;
 	position: absolute;
+}
+
+.ufopro{
+	margin-left: 47%;
 }
 
 .ufoprobod{
