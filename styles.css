@@ -280,7 +280,7 @@ span:hover{
 	font-size: large;
 }
 
-.sec1p2, .sec2p2, .sec3p2, .sec3p2, .sec4p2, .sec5p2, .sec6p2, .sec7p2, .sec7p4{
+.sec1p2, .sec2p2, .sec4p2, .sec5p2, .sec6p2, .sec7p2, .sec7p4{
 	margin: 0 auto;
 	float: left;
 	margin-top: 5%;
@@ -312,8 +312,12 @@ span:hover{
 	font-size: large;
 }
 
-.sec3p2,{
-	margin-left: 4%;
+.sec3p2{
+	margin: 0 auto;
+	float: left;
+	margin-top: 5%;
+	margin-left: 12%;
+	font-size: large;
 }
 
 .ship{
