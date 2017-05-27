@@ -455,7 +455,7 @@ breaks with a vertically held phone*/
 	img#ride{
 		height: 14%;
 		margin-left: 72%;
-	    margin-top: 120%;
+	    margin-top: 116%;
 	    position: fixed;
 	}
 /*This is where the contact page is styled for vertically held phone*/
@@ -481,19 +481,19 @@ breaks with a vertically held phone*/
 		margin: 0 auto;
         float: left;
 		margin-left: 12%;
-		margin-top: 10%;
+		margin-top: 4%;
 	}
 
 	.blacken1{
 		margin: 0 auto;
 		float: left;
-		margin-top: 26%;
+		margin-top: 14%;
 		margin-left: -26%;
 	}
 	
 	#circle{
 		margin: 0 auto;
-		margin-top: 24%;
+		margin-top: 10%;
 		border-radius: 50%;
 		background-color: #F08080;
 		width: 23%;
@@ -523,8 +523,9 @@ breaks with a vertically held phone*/
 	}
 
 	#footer{
-		margin-right: 52%;
-		margin-top: 12%;
+		margin-right: 77%;
+		margin-top: 7%;
+		position: absolute;
 	}
 
 	#resume, #linkedin, #cert{
