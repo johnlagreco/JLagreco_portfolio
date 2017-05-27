@@ -9,8 +9,8 @@ $(document).ready(function(){
     });
 
 	$(document).ready(function(){
-		$(".ufoabout").animate({bottom: '-=600%', right: '+=20%'}, 1000);
-		$(".ufoabout").animate({bottom: '+=600%', left: '+=20%'}, 1000);
+		$(".ufoabout").animate({bottom: '-=100%', right: '+=20%'}, 1500);
+		$(".ufoabout").animate({bottom: '+=100%', left: '+=20%'}, 1500);
 	});
 
 	$("#sidebar").hover(function(){

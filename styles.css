@@ -79,7 +79,7 @@ body{
 
 .ufoabout{
 	margin-left: 47%;
-	position: absolute;
+	position: fixed;
 }
 
 .ufopro{
@@ -137,48 +137,6 @@ h3{
     margin-left: 84%;
     margin-top: 34%;
     position: fixed;
-}
-
-@media (max-width: 425px){
-	#background{
-		background-size: contain;
-		background-repeat: no-repeat;
-	}
-
-	.wrapper1{
-		margin: 0 auto;
-		width: 100%;
-	}
-
-	#homenav{
-		padding-left: 10%;
-		font-size: small;
-		text-align: center;
-		z-index: 1000;
-	}
-
-	h1{
-		margin-top: 0%;
-	    margin-bottom: 0px;
-	    padding-left: 5%;
-	    font-size: 150%;
-	    color: white;
-	    font-family: 'Kaushan Script', cursive;
-	}
-
-	h3{
-		font-size: x-small;
-		margin-left: 5%;
-	    width: 200%;
-	    color: white;
-	}
-
-	img#ride{
-		height: 7%;
-		margin-left: 40%;
-	    margin-top: 58%;
-	    position: fixed;
-	}
 }
 
 p, h2{
@@ -450,5 +408,129 @@ span:hover{
 	margin-top: 10%;
     margin-right: 8%;
 	text-align: center;
+}
+/*This is where I have a viewpoint that breaks with a vertically held phone*/
+
+@media (max-width: 425px){
+	#background{
+		background-image: url("images/winterback400.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.wrapper1{
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	#homenav{
+		padding-left: 0%;
+		font-size: medium;
+		text-align: center;
+		z-index: 1000;
+	}
+
+	.maintext{
+		width: 100%;
+	}
+
+	h1{
+		margin-top: 4%;
+	    margin-bottom: 0px;
+	    padding-left: 11%;
+	    font-size: 330%;
+	    color: white;
+	    font-family: 'Kaushan Script', cursive;
+	}
+
+	h3{
+		margin: 0 auto;
+		text-align: center;
+		font-size: small;
+		margin-left: -2%;
+	    color: white;
+	}
+
+	img#ride{
+		height: 14%;
+		margin-left: 72%;
+	    margin-top: 130%;
+	    position: fixed;
+	}
+/*This is where the contact page is styled for vertically held phone*/
+	#background1{
+		background-image: url("images/John@Hunter400.jpg");
+		background-size: cover;
+		background-attachment: inherit;
+		background-repeat: no-repeat;
+	}
+
+	.blacken1, .blacken{
+		color: black;
+		font-size: small;
+		font-weight: bolder;
+		font-family: lucida grande, sans-serif;
+		background-color: #F08080;
+		border-radius: 60%;
+		padding: 1%;
+	}
+
+	.blacken{
+		margin: 0 auto;
+        float: left;
+		margin-left: 4%;
+		margin-top: 5%;
+	}
+
+	.blacken1{
+		margin: 0 auto;
+		float: left;
+		margin-top: 14%;
+		margin-left: -12%;
+	}
+	
+	#circle{
+		margin: 0 auto;
+		margin-top: 24%;
+		border-radius: 50%;
+		background-color: #F08080;
+		width: 23%;
+		padding-top: 3%;
+		padding-bottom: 0%;
+		margin-left: 2%;
+		overflow: hidden;
+		-webkit-animation: Floatingy 3s infinite ease-in-out;
+	}
+
+	@-webkit-keyframes Floatingy {
+    	from {
+       	 -webkit-transform:translateY(0px);
+    	}
+    	65% {
+        -webkit-transform:translateY(50px);
+    	}
+    	to {
+        -webkit-transform: translateY(-0px);
+    	}
+	}
+
+	.para4{
+		text-align: center;
+		font-size: large;
+		color: black;
+	}
+
+	#footer{
+		margin-right: 52%;
+		margin-top: 12%;
+	}
+
+	#resume, #linkedin, #cert{
+		height: 50px;
+		width: 50px;
+	}
+
+
+
 }
 
