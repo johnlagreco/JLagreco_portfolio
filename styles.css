@@ -409,7 +409,8 @@ span:hover{
     margin-right: 8%;
 	text-align: center;
 }
-/*This is where I have a viewpoint that breaks with a vertically held phone*/
+/*This is where on the home page that I have a viewpoint that 
+breaks with a vertically held phone*/
 
 @media (max-width: 425px){
 	#background{
@@ -437,7 +438,7 @@ span:hover{
 	h1{
 		margin-top: 4%;
 	    margin-bottom: 0px;
-	    padding-left: 11%;
+	    padding-left: 8%;
 	    font-size: 330%;
 	    color: white;
 	    font-family: 'Kaushan Script', cursive;
@@ -454,7 +455,7 @@ span:hover{
 	img#ride{
 		height: 14%;
 		margin-left: 72%;
-	    margin-top: 130%;
+	    margin-top: 120%;
 	    position: fixed;
 	}
 /*This is where the contact page is styled for vertically held phone*/
@@ -463,6 +464,7 @@ span:hover{
 		background-size: cover;
 		background-attachment: inherit;
 		background-repeat: no-repeat;
+		position: fixed;
 	}
 
 	.blacken1, .blacken{
@@ -478,15 +480,15 @@ span:hover{
 	.blacken{
 		margin: 0 auto;
         float: left;
-		margin-left: 4%;
-		margin-top: 5%;
+		margin-left: 12%;
+		margin-top: 10%;
 	}
 
 	.blacken1{
 		margin: 0 auto;
 		float: left;
-		margin-top: 14%;
-		margin-left: -12%;
+		margin-top: 26%;
+		margin-left: -26%;
 	}
 	
 	#circle{
