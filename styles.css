@@ -436,9 +436,9 @@ breaks with a vertically held phone*/
 	}
 
 	h1{
-		margin-top: 4%;
+		margin-top: 2%;
 	    margin-bottom: 0px;
-	    padding-left: 8%;
+	    padding-left: 7%;
 	    font-size: 330%;
 	    color: white;
 	    font-family: 'Kaushan Script', cursive;
@@ -455,10 +455,46 @@ breaks with a vertically held phone*/
 	img#ride{
 		height: 14%;
 		margin-left: 72%;
-	    margin-top: 116%;
+	    margin-top: 112%;
 	    position: fixed;
 	}
-/*This is where the contact page is styled for vertically held phone*/
+
+/*This is where the about page is styled for a vertically held phone*/
+	.wrapper7{
+		background-color: #F08080; 
+		margin: 0 auto;
+		margin-top: 10%;
+		width: 68%;
+		height: 1000px;
+		margin-left: 16%;
+	}
+
+	.para2{
+		margin: 0 auto;
+		margin-top: 10%;
+		width: 72%;
+		padding: 0%;
+		font-size: large;
+		text-align: center;
+	}
+
+	.ufocon{
+		float: left;
+		margin-top: -13%;
+		margin-left: 75%;
+	} 
+
+	.ufopro{
+		float: left;
+    	margin-top: 2%;
+		margin-left: 36%;
+	}
+
+	img#ufopro1, img#ufocon1{
+		height: 40px;
+	}
+
+/*This is where the contact page is styled for a vertically held phone*/
 	#background1{
 		background-image: url("images/John@Hunter400.jpg");
 		background-size: cover;
@@ -480,20 +516,20 @@ breaks with a vertically held phone*/
 	.blacken{
 		margin: 0 auto;
         float: left;
-		margin-left: 12%;
-		margin-top: 4%;
+		margin-left: 14%;
+		margin-top: 3%;
 	}
 
 	.blacken1{
 		margin: 0 auto;
 		float: left;
-		margin-top: 14%;
-		margin-left: -26%;
+		margin-top: 13%;
+		margin-left: -24%;
 	}
 	
 	#circle{
 		margin: 0 auto;
-		margin-top: 10%;
+		margin-top: 9%;
 		border-radius: 50%;
 		background-color: #F08080;
 		width: 23%;
@@ -524,7 +560,7 @@ breaks with a vertically held phone*/
 
 	#footer{
 		margin-right: 77%;
-		margin-top: 7%;
+		margin-top: 6%;
 		position: absolute;
 	}
 
