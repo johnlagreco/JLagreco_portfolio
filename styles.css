@@ -559,12 +559,12 @@ breaks with a vertically held phone*/
 	}
 
 	#footer{
-		margin-right: 77%;
-		margin-top: 6%;
+		margin-right: 75%;
+		margin-top: 8%;
 		position: absolute;
 	}
 
-	#resume, #linkedin, #cert{
+	#resume, #linkedin, #foodcert, #cert, #oshacert{
 		height: 50px;
 		width: 50px;
 	}
